@@ -4,9 +4,14 @@ export default sidebar({
   "/": [
     // TODO
     {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-    },
+      text: "🧰 考证笔记",
+      icon: "",
+      prefix: "/certificates/",
+      link: "",
+      collapsible: true,
+      children: [
+        "hcia-datacom"
+      ]
+    }
   ],
 });
