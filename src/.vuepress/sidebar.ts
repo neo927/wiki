@@ -12,6 +12,16 @@ export default sidebar({
       children: [
         "hcia-datacom"
       ]
+    },
+    {
+      text: "🔡 编程语言",
+      icon: "",
+      prefix: "/programming/",
+      link: "",
+      collapsible: true,
+      children: [
+        "java"
+      ]
     }
   ],
 });
