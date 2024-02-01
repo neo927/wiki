@@ -72,11 +72,21 @@ TCP/IP参考模型是一种更为实际的网络通信模型，它是互联网�
 
 传输层负责提供端到端的数据传输服务，包括数据的分割、重组以及错误检测和修正。它对应于OSI模型的传输层。在TCP/IP模型中，最重要的两个协议是**TCP**（Transmission Control Protocol）和**UDP**（User Datagram Protocol）。TCP提供可靠的、面向连接的服务，保证数据的正确顺序和完整性；而UDP提供无连接的服务，适用于那些对实时性要求高但可以容忍一定数据丢失的应用。
 
+
+
+传输层的PDU称为 **Segment（段）**。
+
+[TCP 与 UDP →](tcpudp/)
+
 ### （四）应用层
 
 应用层直接为用户的应用程序提供网络服务。它合并了OSI模型的会话层、表示层和应用层的功能。这一层包括了所有高级协议，如**HTTP**（HyperText Transfer Protocol）、**FTP**（File Transfer Protocol）、**SMTP**（Simple Mail Transfer Protocol）和**DNS**（Domain Name System）等。应用层协议定义了数据的格式和交换规则，使得不同的网络应用能够在TCP/IP网络上进行交互。
 
 TCP/IP模型以其实用性和简洁性成为了互联网通信的标准。它强调的是协议和网络实现，能够适应各种不同的网络环境和应用需求。
+
+
+
+应用层的PDU称为 **Data（数据）**。
 
 
 
